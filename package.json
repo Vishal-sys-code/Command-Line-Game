@@ -11,7 +11,7 @@
     "cli-game": "game.js"
   },
   "keywords": [],
-  "author": "tmleyncodes",
+  "author": "bisha",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.0.0",
