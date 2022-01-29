@@ -7,9 +7,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./game.js",
+  "bin": {
+    "cli-game": "game.js"
+  },
   "keywords": [],
-  "author": "",
+  "author": "tmleyncodes",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.0.0",
@@ -18,5 +20,14 @@
     "gradient-string": "^2.0.0",
     "inquirer": "^8.2.0",
     "nanospinner": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishal-sys-code/Command-Line-Game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vishal-sys-code/Command-Line-Game/issues"
+  },
+  "homepage": "https://github.com/Vishal-sys-code/Command-Line-Game#readme"
 }
